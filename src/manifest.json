@@ -8,5 +8,5 @@
 	"author": "Hieu-Thi Luong",
 	"homepage_url": "https://github.com/hieuthi/joplin-plugin-copy-anchor-link",
 	"repository_url": "https://github.com/hieuthi/joplin-plugin-copy-anchor-link",
-	"keywords": []
+	"keywords": ["joplin-plugin","link","anchor","copy","markdown-it"]
 }
