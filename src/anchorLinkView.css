@@ -1,0 +1,51 @@
+span.copy-anchor-icon {
+  padding-left:8px;
+  cursor: pointer;
+}
+span.copy-anchor-icon.clicked::after {
+  content: "Copied!";
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.cai-oi, .cai-of, .cai-li, .cai-lh, .cai-gi, .cai-gh {
+  display: none;
+}
+
+.cai-oi::before {
+  content: "OI";
+  font-size: 8px;
+  vertical-align: sub;
+}
+.cai-of::before {
+  content: "OF";
+  font-size: 8px;
+  vertical-align: sub;
+}
+
+.cai-li::before {
+  content: "LI";
+  font-size: 8px;
+  vertical-align: sub;
+}
+.cai-lh::before {
+  content: "LH";
+  font-size: 8px;
+  vertical-align: sub;
+}
+
+.cai-gi::before {
+  content: "GI";
+  font-size: 8px;
+  vertical-align: sub;
+}
+.cai-gh::before {
+  content: "GH";
+  font-size: 8px;
+  vertical-align: sub;
+}
+.cai-gf::before {
+  content: "GF";
+  font-size: 8px;
+  vertical-align: sub;
+}
