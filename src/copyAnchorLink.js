@@ -9,6 +9,7 @@ module.exports = {
 						const token = tokens[idx]
 						if (token.type !== 'heading_open') { continue }
 						state.tokens[idx+1].children.push(Object.assign(new state.Token('span_open', 'span', 1), {attrs:[['class','copy-anchor-icon']]}));
+						state.tokens[idx+1].children.push(Object.assign(new state.Token('html_inline', '', 0), {content: " "}));
 						["oi", "of", "li", "lh", "gi", "gh", "gf"].forEach(name => {
 							state.tokens[idx+1].children.push(Object.assign(new state.Token('span_open', 'span', 1), {attrs:[['class',`cai-${name}`]]}));
 							state.tokens[idx+1].children.push(Object.assign(new state.Token('html_inline', '', 0), {content: "🔗"}))

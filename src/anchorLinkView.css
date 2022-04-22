@@ -1,6 +1,5 @@
 span.copy-anchor-icon {
-  padding-left:8px;
-  cursor: pointer;
+  line-height: 90%;
 }
 span.copy-anchor-icon.clicked::after {
   content: "Copied!";
@@ -8,44 +7,25 @@ span.copy-anchor-icon.clicked::after {
   font-weight: normal;
 }
 
-.cai-oi, .cai-of, .cai-li, .cai-lh, .cai-gi, .cai-gh {
+.cai-oi, .cai-of, .cai-li, .cai-lh, .cai-gi, .cai-gh, .cai-gf {
   display: none;
+  position: relative;
+  cursor: pointer;
+}
+.cai-gf { display: inline; }
+
+.cai-oi::before, .cai-of::before, 
+.cai-li::before, .cai-lh::before, 
+.cai-gi::before, .cai-gh::before, .cai-gf::before {
+  font-size: 8px;
+  position: absolute;
+  top: 0;
 }
 
-.cai-oi::before {
-  content: "OI";
-  font-size: 8px;
-  vertical-align: sub;
-}
-.cai-of::before {
-  content: "OF";
-  font-size: 8px;
-  vertical-align: sub;
-}
-
-.cai-li::before {
-  content: "LI";
-  font-size: 8px;
-  vertical-align: sub;
-}
-.cai-lh::before {
-  content: "LH";
-  font-size: 8px;
-  vertical-align: sub;
-}
-
-.cai-gi::before {
-  content: "GI";
-  font-size: 8px;
-  vertical-align: sub;
-}
-.cai-gh::before {
-  content: "GH";
-  font-size: 8px;
-  vertical-align: sub;
-}
-.cai-gf::before {
-  content: "GF";
-  font-size: 8px;
-  vertical-align: sub;
-}
+.cai-oi::before { content: "OI"; }
+.cai-of::before { content: "OF"; }
+.cai-li::before { content: "LI"; }
+.cai-lh::before { content: "LH"; }
+.cai-gi::before { content: "GI"; }
+.cai-gh::before { content: "GH"; }
+.cai-gf::before { content: "GF"; }
