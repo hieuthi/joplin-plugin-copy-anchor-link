@@ -12,15 +12,15 @@ Click on the icon to copy link to the particular heading.
 ### Enable different types of link format
 From version 1.1.0 and above, this plugin supports 7 different formats for link but they are all hidden by default. With `O` is Only-Link, `L` is Local, `G` is Global, `I` is ID, `H` is Heading, `F` is Full:
 
-- OI: `#welcome-to-joplin`
-- OF: `:/524d6874790f4e33a1dd2f5b2463c6cb#welcome-to-joplin`
-- LI: `[welcome-to-joplin](#welcome-to-joplin)`
-- LH: `[Welcome to Joplin!](#welcome-to-joplin)`
-- GI: `[welcome-to-joplin](:/524d6874790f4e33a1dd2f5b2463c6cb#welcome-to-joplin)`
-- GH: `[Welcome to Joplin!](:/524d6874790f4e33a1dd2f5b2463c6cb#welcome-to-joplin)`
-- (Default) GF: `[1. Welcome to Joplin! # Welcome to Joplin!](:/524d6874790f4e33a1dd2f5b2463c6cb#welcome-to-joplin)`
+- `OI`: `#welcome-to-joplin`
+- `OF`: `:/524d6874790f4e33a1dd2f5b2463c6cb#welcome-to-joplin`
+- `LI`: `[welcome-to-joplin](#welcome-to-joplin)`
+- `LH`: `[Welcome to Joplin!](#welcome-to-joplin)`
+- `GI`: `[welcome-to-joplin](:/524d6874790f4e33a1dd2f5b2463c6cb#welcome-to-joplin)`
+- `GH`: `[Welcome to Joplin!](:/524d6874790f4e33a1dd2f5b2463c6cb#welcome-to-joplin)`
+- (Default) `GF`: `[1. Welcome to Joplin! # Welcome to Joplin!](:/524d6874790f4e33a1dd2f5b2463c6cb#welcome-to-joplin)`
 
-To enable any or all of them to suit your workflow by adding their respectable css to `userstyle.css`
+To enable any or all of them, you need to add their respectable css to `userstyle.css`
 ```
 .cai-oi { display: inline; }
 .cai-of { display: inline; }
@@ -40,9 +40,9 @@ Optionally, you can hide the link icons by default and only show them when mouse
 
 ```css
 h1 span.copy-anchor-icon, h2 span.copy-anchor-icon, h3 span.copy-anchor-icon {
-	display: none;
+  display: none;
 }
 h1:hover span.copy-anchor-icon, h2:hover span.copy-anchor-icon, h3:hover span.copy-anchor-icon {
-	display: inline;
+  display: inline;
 }
 ```
