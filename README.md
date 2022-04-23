@@ -2,7 +2,7 @@
 
 This plugin add several icons next to the note headings that you can click on to copy markdown link of the specific heading.
 
-![Preview](https://raw.githubusercontent.com/hieuthi/joplin-plugin-copy-anchor-link/main/docs/preview.png)
+![Preview](https://raw.githubusercontent.com/hieuthi/joplin-plugin-copy-anchor-link/main/docs/preview-v1.1.0.png)
 
 
 ## Usage
